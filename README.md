@@ -1,2 +1,2 @@
 # Jollybot
-A stupid bot that is written in c#
+A stupid bot that is written in js
