@@ -6,7 +6,9 @@ module.exports = {
 		function getRandomInt(m) {
 			return Math.floor(Math.random() * m);
 		}
-		if(args.length > 1) {
+    if (!args.length) {
+      message.reply("Nothing")
+    } else if (args.length > 1) {
 			const newarg = args.join(" ")
 			const stuff = newarg.split(', ')
 			number = getRandomInt(stuff.length)
