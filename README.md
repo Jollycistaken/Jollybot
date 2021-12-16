@@ -1,4 +1,4 @@
-# Source code for this project has gone private and this github will not be updated anymore, sorry :(
+# Source code for this project has gone private and this repo will not be updated anymore, sorry :(
 
 ## What is this?
 A js discord bot named **Jollybot** that most likely wont have any unique features
