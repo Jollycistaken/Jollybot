@@ -1,6 +1,6 @@
 // Command ideas: https://dankmemer.lol/commands, https://maki.gg/commands
 // Credits to evobot for command handler
-
+// const db = require('quick.db');
 const Discord = require("discord.js");
 const fs = require("fs");
 const path = require("path");

@@ -10,10 +10,10 @@ module.exports = {
 			helpEmbed.setTitle('Help: ')
 			helpEmbed.setDescription('All the commands on the bot.')
 			helpEmbed.addField(`**>help animal**`, `Animal pictures/facts`, false)
-			helpEmbed.addField(`**>help fun**`, `Fun commands on this bot`, false)
+			helpEmbed.addField(`**>help currency**`, `Money...`, false)
+      helpEmbed.addField(`**>help fun**`, `Fun commands on this bot`, false)
 			helpEmbed.addField(`**>help game**`, `Game specific commands or games in the bot`, false)
 			helpEmbed.addField(`**>help image**`, `Image generators/editors lol`, false)
-			helpEmbed.addField(`**>help meme**`, `Meme sender/maker`, false)
 			helpEmbed.addField(`**>help nsfw**`, `😏`, false)
 			helpEmbed.addField(`**>help utility**`, `Useful commands for servers`, false)
 			helpEmbed.setColor(process.colors.bestcolor)
@@ -72,10 +72,10 @@ module.exports = {
 			return message.channel.send({
 				embeds: [helpEmbed]
 			}).catch(console.error);
-		} else if(args[0] === "meme") {
+		} else if(args[0] === "currency") {
 			let helpEmbed = new Discord.MessageEmbed().setTitle('Memes: ').setDescription('Meme sender/maker').setColor(process.colors.bestcolor)
 			commands.forEach((cmd) => {
-				if(cmd.topic === "meme") {
+				if(cmd.topic === "currency") {
 					helpEmbed.addField(`**${message.client.prefix}${cmd.name} ${cmd.aliases ? ` ($ {
 							cmd.aliases.join(', ')
 						})
