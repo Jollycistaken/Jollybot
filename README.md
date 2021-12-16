@@ -1,3 +1,5 @@
+# Source code for this project has gone private, sorry :(
+
 ## What is this?
 A js discord bot named **Jollybot** that most likely wont have any unique features
 ## How do I host this bot?
