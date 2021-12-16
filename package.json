@@ -5,7 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "discord.js": "^13.3.1",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "got": "^10.7.0",
+    "random-reddit": "^2.0.3"
   },
   "devDependencies": {
     "node": "^16.13.1"
