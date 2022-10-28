@@ -1,4 +1,4 @@
-# Source code for this project has gone private and this repo will not be updated anymore, sorry :(
+# This version of the bot is discontinued please look at [the v2 of this bot](https://github.com/Jollycistaken/Jollybot-V2)
 
 ## What is this?
 A js discord bot named **Jollybot** that most likely wont have any unique features
