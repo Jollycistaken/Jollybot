@@ -1,5 +1,7 @@
 # This version of the bot is discontinued please look at [the v2 of this bot](https://github.com/Jollycistaken/Jollybot-V2)
 
+## Please do not use this, it has major security vulns and is old, USE V2
+
 ## What is this?
 A js discord bot named **Jollybot** that most likely wont have any unique features
 ## How do I host this bot?
